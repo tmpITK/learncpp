@@ -11,10 +11,16 @@ public:
 
 class Apple : public Fruit {
 public:
-	Apple(std::string c="green");
+	Apple(std::string n="apple", std::string c="green");
 };
 
 class Banana : public Fruit {
 public:
-	Banana(std::string c="yellow");
+	Banana(std::string n="banana", std::string c="yellow");
+};
+
+
+class GrannySmith : public Apple {
+public:
+	GrannySmith();
 };

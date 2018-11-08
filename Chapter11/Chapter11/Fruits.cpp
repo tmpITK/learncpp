@@ -10,6 +10,8 @@ const std::string Fruit::getName(){
 	return color;
 }
 
-Apple::Apple(std::string c) : Fruit("Apple", c) {};
+Apple::Apple(std::string n, std::string c) : Fruit(n, c) {};
 
-Banana::Banana(std::string c) : Fruit("Banana", c) {};
+Banana::Banana(std::string n, std::string c) : Fruit(n, c) {};
+
+GrannySmith::GrannySmith() : Apple("granny smith") {};
